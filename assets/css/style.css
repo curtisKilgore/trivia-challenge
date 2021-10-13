@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: rgb(52, 6, 75);
+}
+
+nav {
+  height: 50px;
+  background-color: rgb(246, 246, 246);
+  position: relative;
+  font-size: 28px;
+  padding: 5px 15px;
+}
+
+a {
+  color: rgb(52, 6, 75);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+}
+
+.scores:hover {
+  transform: scale(1.1);
+}
+
+.timer {
+  position: absolute;
+  color: rgb(52, 6, 75);
+  top: 10px;
+  right: 15px;
+}
+
+.wrapper {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.start {
+  color: rgb(52, 6, 75);
+  text-align: center;
+}
+
+.start h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.start p {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+button {
+  display: inline-block;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #fff;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  background-color: rgb(52, 6, 75);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #8168a7;
+}
+
+/* End Screen */
+#end-screen {
+  color: rgb(52, 6, 75);
+}
+
+#end-screen h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#end-screen p {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  font-size: 100%;
+  padding: 3px 0;
+}
+
+#end-screen button {
+  padding: 5px 15px;
+}
+
+.hide {
+  display: none;
+}
