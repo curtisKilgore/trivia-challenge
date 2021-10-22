@@ -53,17 +53,17 @@ a {
   max-width: 600px;
 }
 
-.start {
+.container {
   color: rgb(52, 6, 75);
   text-align: center;
 }
 
-.start h1 {
+.container h1 {
   font-size: 45px;
   margin-bottom: 15px;
 }
 
-.start p {
+.container p {
   font-size: 24px;
   margin-bottom: 15px;
 }
@@ -83,6 +83,47 @@ button {
 
 button:hover {
   background-color: #8168a7;
+}
+
+#question-container {
+  width: 100%;
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 26px;
+  border: 0.1rem solid rgba(52, 6, 75, 0.5);
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 10px 0 rgba(52, 6, 75, 0.5);
+  transform: translateY(3px);
+}
+
+.choice-prefix {
+  background-color: rgb(52, 6, 75);
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.choice-text {
+  padding: 10px;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
 }
 
 /* End Screen */
@@ -111,4 +152,9 @@ input[type="text"] {
 
 .hide {
   display: none;
+}
+
+/* Highscores */
+ol {
+  margin-top: 40px;
 }
